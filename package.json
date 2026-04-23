@@ -4,12 +4,16 @@
   "description": "Node.js Real-time Chat App using Socket.io",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha --exit ./test/test.js"
   },
   "author": "Anish",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
