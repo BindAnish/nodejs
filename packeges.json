@@ -1,0 +1,15 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Node.js Real-time Chat App using Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Anish",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
